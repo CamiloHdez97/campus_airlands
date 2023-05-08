@@ -1,0 +1,66 @@
+Menu ID:
+
+	grpResid
+	grpApart
+	grpReserva
+	grpPagos
+	grpInv
+	
+
+form Residente:
+
+	div: formularioR
+	form: frmDataR
+	
+		selTorreR
+		selApartR
+		selPisoR
+		txtIdR
+		txtNomR
+		txtApeR
+		txtTelR
+		txtCorreoR
+		dateFechaIngR
+		txtPlacaR
+		txtMascotaR
+	
+	btnAddR : Botón
+	
+	tablaR : listaR
+	
+	
+form Torre:
+
+	div: formularioT
+	form: frmDataT
+	
+		txtNumT
+	
+	btnAddT : Botón
+	
+	listaT : listaR
+	
+
+form Apartamento:
+
+	div: formularioA
+	form: frmDataA
+	
+		txtNumT
+	
+	btnAddA : Botón
+	
+	listaA: listaA
+	
+	
+form Reserva:
+
+	div: formularioRE
+	form: frmDataRE
+	
+		txtNumT
+	
+	btnAddA : Botón
+	
+	listaA: listaA
+

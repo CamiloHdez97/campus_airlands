@@ -1,0 +1,20 @@
+{
+  "clientes": [
+    {
+      "_doc": "234",
+      "_name": "adsfds",
+      "_lastname": "sdfds",
+      "_tel": "234",
+      "_fechaN": "2023-06-05",
+      "_ciudadOrigen": "sdfs",
+      "_paisOrigen": "sdf",
+      "_correo": "23432",
+      "id": 14
+    }
+  ],
+  "rutas": [],
+  "flota": [],
+  "etiqueta": [],
+  "embarque": [],
+  "personal": []
+}

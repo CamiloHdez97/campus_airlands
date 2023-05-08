@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/logo.png">
+  <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/bootstrap/bootstrap.min.js" defer></script>
+  <script type="module" src="js/app.js" defer></script>
+  <title>AirLands</title>
+</head>
+<body>
+  <main-menu></main-menu>
+
+  <div class="container border bg-light mt-3" id="grpClientes">
+    <h1 class="display-5 m-3">Clientes</h1>
+    <main-cliente></main-cliente>
+  </div>
+
+  <div class="container border bg-light mt-3" id="grpRutas">
+    <h1 class="display-5 m-3">Rutas</h1>
+    <main-ruta></main-ruta>
+  </div>
+
+  <div class="container border bg-light mt-3" id="grpFlotas">
+    <h1 class="display-5 m-3">Flotas Aereas</h1>
+    <main-flota></main-flota>
+  </div>
+
+  <div class="container border bg-light mt-3" id="grpEtiqueta">
+    <h1 class="display-5 m-3">Etiqueta</h1>
+    <main-etiqueta></main-etiqueta>
+  </div>
+
+  <div class="container border bg-light mt-3" id="grpEmbarque">
+    <h1 class="display-5 m-3">Embarque</h1>
+    <main-embarque></main-embarque>
+  </div>
+
+  <div class="container border bg-light mt-3" id="grpPersonal">
+    <h1 class="display-5 m-3">Personal</h1>
+    <main-personal></main-personal>
+  </div>
+
+  <div class="container mt-3">
+    <div class="alert alert-success" style="display:none;" role="alert">Guarda con exito</div>
+    <div class="alert alert-danger" style="display:none;" role="alert">Error! Complete todos los campos</div>
+  </div>
+
+  <main-footer></main-footer>
+
+</body>
+</html>
